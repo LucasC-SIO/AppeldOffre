@@ -5,10 +5,11 @@
 
 /* Header */
 header {
-  background-color: white;
+  background-color: rgb(61, 232, 255);
   color: black;
   padding: 30px;
   text-align: left;
+  
 }
 
 header h1 {
