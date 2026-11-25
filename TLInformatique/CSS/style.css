@@ -56,6 +56,48 @@ img, .img {
   width: 80%; 
 }
 
+/* Cartes*/
+.carte { 
+  width: 100%;
+  max-width: 700px; 
+  background-color: #eee; 
+  padding: 20px;
+  border: 5px solid; 
+  border-radius: 10px; 
+  margin: 0 auto 40px auto;   
+}
+
+.carte-titre { 
+  text-align: center; 
+  border-bottom: 2px solid; 
+  padding-bottom: 10px; 
+  margin-bottom: 15px; 
+}
+
+.tag { 
+  background-color: blue; 
+  color: #fff; 
+  padding: 5px 10px;
+  display: flex; 
+  gap: 10px; 
+  justify-content: center;   
+}
+
+.grille-cartes { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 20px;
+} 
+
+.carte-projet, .carte { 
+  flex: 1 1 250px; 
+  min-width: 200px; 
+  padding: 20px; 
+  border: 1px solid #000000; 
+  background: #fff;
+}
+
 /* Footer*/
 footer {
   display: flex;
@@ -65,4 +107,61 @@ footer {
   padding: 20px;
   background-color: #333;
   color: white;
+}
+
+/* Images */
+img, .img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container { 
+  width: 80%; 
+}
+
+/* Tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 81, 128);
+  background-color: #6fbbce;
+}
+
+thead, tfoot {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+  border: 3px solid rgb(0, 81, 128);
+  padding: .5em;
+  letter-spacing: 2px;
+}
+
+tbody td {
+  text-align: center;
+  letter-spacing: 1px;
+  border: 2px solid rgb(51, 153, 136);
+  padding: .5em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #5bc7b8;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #69e2d2;
+}
+
+caption {
+  font-family: "Rock Salt", cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #000000;
+  text-align: right;
+  letter-spacing: 1px;
 }
